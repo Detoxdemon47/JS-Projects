@@ -299,7 +299,7 @@ button.calculate:hover{
         font-size: 18px;
     }
 
-    .input label, .inputW label{
+    .input label, .inputW label .inputH label{
         font-size: 14px;
     }
 
@@ -311,6 +311,61 @@ button.calculate:hover{
         width: 380px;
     }
 
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size: 12px;
+    }
+    .box{
+        width: 280px;
+        height: 600px;
+    }
+
+    .input label{
+        font-size: 10px;
+    }
+
+    .input label, .inputW label, .inputH label{
+        font-size: 8px;
+    }
+
+    .input input, .inputH input, .inputW input{
+        font-size: 18px;
+    }
+
+    .modal-content{
+        width: 180px;
+    }
+
+    .gender .container{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .checkmark{
+        height: 8px;
+        width: 8px;
+    }
+
+    .containerHW{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button.calculate{
+        font-size: 10px;
+    }
+
+    .result p, .result #result{
+        font-size: 15px;
+    }
+
+    .result .comment{
+        font-size: 15px;
+    }
 }
 
 

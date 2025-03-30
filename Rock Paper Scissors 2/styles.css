@@ -109,6 +109,59 @@ body{
     pointer-events: none;
 }
 
+@media(max-width:580px){
+    .body{
+        margin: 0px 20px;
+    }
+    .container{
+        padding: 1rem 4rem;
+    }
+
+    .result_images{
+        column-gap: 5rem;
+    }
+
+    .result_images img{
+        width: 50px;
+    }
+
+    .option_image img{
+        width: 40px;
+    }
+
+    .option_image p{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:355px){
+    .body{
+        margin: 0px 20px;
+    }
+    .container{
+        padding: 1rem 2rem;
+    }
+
+    .result_images{
+        column-gap: 5rem;
+    }
+
+    .result_images img{
+        width: 40px;
+    }
+
+    .option_image img{
+        width: 30px;
+    }
+
+    .option_image p{
+        font-size: 1rem;
+    }
+
+    .result{
+        font-size: 1.5rem;
+    }
+}
 
 
 
